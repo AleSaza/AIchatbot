@@ -11,3 +11,12 @@ chrome_options2.add_argument(r"user-data-dir=" + dir_path + "profile/zap")
 driver = webdriver.Chrome(options=chrome_options2)
 driver.get('https://web.whatsapp.com/')
 time.sleep(120)
+
+def bot():
+    try:
+
+    except:
+        print('buscando novas notificações')
+
+while True:
+    bot()
